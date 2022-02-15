@@ -1,7 +1,7 @@
 ul {
   font-family: Tahoma, sans-serif;
   list-style-type: none;
-  margin: 0;
+  margin: 4;
   padding: 5;
   overflow: hidden;
   background-color: rgb(20, 20, 20);
@@ -19,7 +19,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #6607b4;
 }
