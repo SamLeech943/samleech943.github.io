@@ -2,7 +2,7 @@ ul {
   font-family: Tahoma, sans-serif;
   list-style-type: none;
   margin: 0;
-  padding: 10;
+  padding: 7;
   overflow: hidden;
   background-color: rgb(20, 20, 20);
 }
@@ -27,6 +27,22 @@ li a:hover {
 .active {
   background-color: #6607b4;
 }
+
+
+.parallax {
+  /* The image used */
+  background-image: url("https://resi.ze-robot.com/dl/ul/ultraviolet-4k-wallpaper-2560%C3%971600.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 body {
   font-family: Tahoma, sans-serif;
