@@ -1,9 +1,9 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(20, 20, 20);
 }
 
 li {
@@ -20,9 +20,9 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #6607b4;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #6607b4;
 }
