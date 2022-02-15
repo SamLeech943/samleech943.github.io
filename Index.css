@@ -34,7 +34,8 @@ li a:hover {
   background-image: url("https://external-preview.redd.it/GOkP8onbuyjGmN9Rc8Que5mw21CdSw6OuXpAKUuE6-4.jpg?width=960&crop=smart&auto=webp&s=baada9754b52c3be1dbf59e8d9b2502ce8ff9f8d");
 
   /* Set a specific height */
-  min-height: 2160px;
+  min-height: 1440px;
+  min-width: 2560px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
