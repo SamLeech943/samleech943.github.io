@@ -10,6 +10,7 @@ body{
 
 ul{
 	display: flex;
+  background: #8d13d300;
 	width: 100%;
 	height: 50px;
 	margin: auto;
