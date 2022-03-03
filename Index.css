@@ -4,7 +4,7 @@
 	list-style-type: none;
 }
 body{
-	background: #1E1F25;
+	background: #1e1f2500;
 }
 ul{
 	display: flex;
@@ -55,14 +55,7 @@ li:active {
   }
 }
 
-.shameless-plug{
-  position: absolute;
-  bottom: 10px;
-  right: 0;
-  padding: 8px 20px;
-  color: #ccc;
-  text-decoration: none;
-}
+
 
 
 .parallax {
