@@ -4,6 +4,9 @@
 	list-style-type: none;
 }
 
+body{
+	background: #1E1F25;
+}
 
 ul{
 	display: flex;
