@@ -6,7 +6,8 @@
 body{
 	background: #202121;
   margin:auto;
-}
+
+
 
 
 ul{
@@ -20,10 +21,11 @@ ul{
 	text-align: center;
 }
 li {
+
 	padding: 1rem 2rem 1.15rem;
   text-transform: uppercase;
   cursor: pointer;
-  color: #ebebeb;
+  color: #white;
 	min-width: 80px;
 	margin: auto;
 }
@@ -31,7 +33,7 @@ li {
 li:hover {
   background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
   background-size: 100% 100%;
-  color: #27262c;
+  color: white;
   animation: spring 300ms ease-out;
   text-shadow: 0 -1px 0 #1E1F25;
 	font-weight: bold;
