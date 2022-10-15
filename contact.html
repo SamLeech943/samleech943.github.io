@@ -5,6 +5,7 @@
 
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -43,104 +44,153 @@ p{
 body, html {
     height: 100%;
 }
-		
-	  </style>		
-		<style>
 
-.navbar {
-    margin-bottom: 0 !important;
-	
-}
+	  </style>
+    <style>
 
-nav{
+    .navbar {
+        margin-bottom: 0 !important;
+    }
 
-  position: fixed;
-  background-color: white;
-  width: 100%;
-    z-index: 2000;
+    nav{
 
-}
+      position: fixed;
+      background-color: #202121;
+      width: 100%;
+        z-index: 2000;
 
-ol, ul {
-    list-style: none;
-}
-li {
+    }
 
-    display: inline-block;
-    padding: 20px 0 20px;
-    vertical-align: middle;
-}
-a:hover, a:focus,  {
-    color: #999;
-    text-decoration: none;
-}
-a {
-
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    text-decoration: none;
-    transition: color 0.1s, background-color 0.1s;
-}
-a {
-    position: relative;
-    display: block;
-    padding: 16px 0;
-    margin: 0 12px;
-    letter-spacing: 1px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 900;
-    text-transform: uppercase;
-    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-    color: #000;
-}
-a::before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    background-color: #000;
-    transform-origin: right top;
-    transform: scale(0, 1);
-    transition: color 0.1s,transform 0.2s ease-out;
-}
-a:active::before {
-    background-color: #000;
-}
-a:hover::before, a:focus::before {
-    transform-origin: left top;
-    transform: scale(1, 1);
-}
+    ol, ul {
+        list-style: none;
 
 
+    }
+    li {
 
-}
-</style>
+        display: inline-block;
+        padding: 20px 0 20px;
+        vertical-align: middle;
 
 
-<style>
+    }
+    a:hover, a:focus,  {
 
-	
-	
+        text-decoration: none;
 
-	
-	
-</style>
+    }
+    a {
+
+        font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        text-decoration: none;
+        transition: color 0.1s, background-color 0.1s;
+        color: white;
+    }
+    a {
+        position: relative;
+        display: block;
+        padding: 16px 0;
+        margin: 0 12px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 900;
+        text-transform: uppercase;
+        transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+        color: white;
+    }
+    a::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: #000;
+        transform-origin: right top;
+        transform: scale(0, 1);
+        transition: color 0.1s,transform 0.2s ease-out;
+
+    }
+    a:active::before {
+        background-color: #white;
+
+    }
+    a:hover::before, a:focus::before {
+        transform-origin: left top;
+        transform: scale(1, 1);
+    }
+
+
+
+    }
+    </style>
+
+
+
+    <style>
+    #footer {
+        position: relative;
+        left: 0;
+        bottom: 80px;
+        padding-bottom: 20px;
+
+        width: 100%;
+        background-color: #202121;
+        color: white;
+        text-align: center;
+    }
+    </style>
+
+    <style>
+    * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .ani {
+      position: relative;
+    display: inline;
+    margin: 2%;
+
+
+
+
+    }
+    .ani img {
+      max-width: 100%;
+
+      -moz-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+
+    }
+    .ani:hover img {
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+
+    }
+
+    </style>
 
 <style>
 h1 {
   margin-bottom: 50px;
 	overflow: hidden;
-	
-	
+
+
   color: Black;
- 
+
   font-size: 40px;
 
 
-	
+
 }
 
 
@@ -150,7 +200,7 @@ h1 {
 	line-height: 1.5;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	
+
 	font-weight: 100;
 	display: block;
   padding-left: 20px;
@@ -158,114 +208,17 @@ h1 {
 
 </style>
 
- <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
-    
-    
-    
-    
-    <style>body {font-family: Arial, Helvetica, sans-serif;}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-		#map{
-			float: left;
-			padding-left: 70px;
-			padding-bottom: 20px;
-		}
-		
-	
-		#right{
-			
-			float: right;
-			padding-right: 450px;
-			
-		}
-	
 
-		
-		
-		#footer{
-			
-   position:relative;
-   
-    padding-bottom: 20px;
 
-    width: 100%;
-    background-color: #545454;
-    color: white;
-    text-align: center;
 
-		}
-		
-		
-	
-    
-    </style>
 
-    <style>
-    #galine{
-        text-align: center;
 
-    }
 
-    #galine img {
-        display: inline;
-        width: 500px;
-        height: 250px;
-    }
-
-    #galine:after {
-        content: '';
-        display: inline;
-        width: 60%;
-    }
-		
-
-		#footer{
-height: 80px;
-clear: both;
-bottom:0px;
-width:100%;
-position: relative;
-			padding-bottom: 20px;
-			margin-bottom: -3.75rem;
-}
-		
-		
-		
-</style>
-    
     <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -322,29 +275,45 @@ function scrollBanner() {
 }
 scrollBanner();
 </script>
-    
-    
+
+<style>
+#galine{
+    text-align: center;
+
+}
+
+#galine img {
+    display: inline;
+    width: 500px;
+    height: 250px;
+}
+
+#galine:after {
+    content: '';
+    display: inline;
+    width: 52%;
+}
+</style>
+
+  <title>Sam Leech - Projects</title>
 
   </head>
-  
-  
-  
+
+
+
   <body>
-  
-  
-  
+
+
+
         <nav>
         <ul>
           <li class="item" ><a href="Index.html">Home</a></li>
-    	 
-          <li class="item"><a href="#">Our Services</a></li>
-          <li class="item"><a href="#">Our Locomotives</a></li>
-          <li class="item" ><a href="#" class ="scrollToTop">Contact Us</a></li>
-          <li class="item"><a href="#section2">Find Us</a>
+          <li class="item" ><a href="#" class ="scrollToTop">My Projects</a></li>
+          <li class="item"><a href="#section2">Contact Me</a>
 
         </ul>
 </nav>
-      
+
 <br>
 <br>
 <br>
@@ -355,7 +324,7 @@ scrollBanner();
 
 <br>
 
-  <img src="train2-0x560.jpg"  height="550" width="1900">
+
   <br>
   <br>
 
@@ -370,31 +339,8 @@ scrollBanner();
 <br>
 <br>
 
-<div class="container">
-  <form action="action_page.php">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">UK</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-    
-    
     <br>
 <br>
 <br>
@@ -402,11 +348,11 @@ scrollBanner();
 <br>
 <br>
 <div id ="galine">
-   <img src="scot.jpg"/>
+   <img src="ue5.png"/>
    &nbsp
-   <img src="44WWXEGNAJBOLNHXDGV5LMNSIY.jpg"/>
+   <img src="atom.png"/>
    &nbsp
-   <img src="download.jpg" />
+   <img src="MoteValley.png" />
   </div>
 <br>
 <br>
@@ -417,69 +363,31 @@ scrollBanner();
 <h1><strong><center>Find Us</center></strong></h1>
 
 
-    
-    <div id="map">
-    
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2368.286206843187!2d-2.2100217838002525!3d53.58835468003048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bbbad6244eabd%3A0xf9f278fa03d60930!2sRiley+%26+Son+Electromec+Ltd!5e0!3m2!1sen!2suk!4v1520329181924" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-    
-    <div id="right">
-    
-   <center> <p><strong> Opening Times</strong>
-<br>
+
+
 
 <br>
 
 <br>
 <br>
-
-Mon: 7:30 am – 4:30 pm
-<br>
-<br>
-<br>
-<br>
-Tue: 7:30 am – 4:30 pm
-<br>
-<br>
-<br>
-<br>
-Wed: 7:30 am – 4:30 pm
-
-<br>
-<br>
-<br>
-<br>
-Thu: 7:30 am – 4:30 pm
-<br>
-<br>
-
-<br>
-<br>
-
-Fri: 7:30 am – 12:00 pm
-<br>
-<br>
-
-
-	   </div>
-	    </div>
 
 
 
 
 
 </p>
-    
+
 <br>
    </div></center>
-     
-     
-     
+
+
+
       <div id="footer">
 
 <br>
 &nbsp
 
-  
+
       <br>
 
     <p>© 2018 Riley and Son - All Rights Reserved</p>
@@ -489,11 +397,9 @@ Fri: 7:30 am – 12:00 pm
       &nbsp
       &nbsp
 
- 
+
   </div>
-  
+
   </body>
 
 </html>
-  
-

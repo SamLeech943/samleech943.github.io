@@ -60,7 +60,17 @@ li:active {
     -webkit-transform: scale(1, 1);
   }
 }
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 80px;
+    padding-bottom: 20px;
 
+    width: 100%;
+    background-color: #202121;
+    color: white;
+    text-align: center;
+}
 
 
 
