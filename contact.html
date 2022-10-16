@@ -2,7 +2,11 @@
 <html lang="en">
 
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <link href="slider.css" rel="stylesheet" type="text/css">
+    <link href="test.css" rel="stylesheet" type="text/css">
 
 
 
@@ -10,8 +14,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-<link href="css/galian.css" rel="stylesheet" type="text/css">
-<link href="css/slider.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -21,10 +23,9 @@
 
 
 
-    <link href="test.css" rel="stylesheet" type="text/css">
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
@@ -32,6 +33,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 <link href="slider.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
 
 
 <style>
@@ -58,6 +67,8 @@ body, html {
       background-color: #202121;
       width: 100%;
         z-index: 2000;
+        padding-bottom: 15px;
+        padding-top: 15px;
 
     }
 
@@ -88,7 +99,7 @@ body, html {
     }
     a {
         position: relative;
-        display: block;
+        display: inline;
         padding: 16px 0;
         margin: 0 12px;
         letter-spacing: 1px;
@@ -107,7 +118,7 @@ body, html {
         left: 0;
         height: 3px;
         width: 100%;
-        background-color: #000;
+        background-color: white;
         transform-origin: right top;
         transform: scale(0, 1);
         transition: color 0.1s,transform 0.2s ease-out;
@@ -120,6 +131,7 @@ body, html {
     a:hover::before, a:focus::before {
         transform-origin: left top;
         transform: scale(1, 1);
+
     }
 
 
@@ -148,8 +160,8 @@ body, html {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+      margin: auto;
+      padding: auto;
 
     }
 
@@ -280,18 +292,20 @@ scrollBanner();
 #galine{
     text-align: center;
 
+
 }
 
 #galine img {
-    display: inline;
-    width: 500px;
+    display:inline;
+    width: 450px;
     height: 250px;
 }
 
 #galine:after {
-    content: '';
+    content: 'w';
+    color: white;
     display: inline;
-    width: 52%;
+    width: 50%;
 }
 </style>
 
@@ -317,48 +331,56 @@ scrollBanner();
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
-<br>
-
-
-  <br>
-  <br>
-
-<h1><strong><center>Contact Us</center></strong></h1>
-<br>
-<br>
-
-
-
-<br>
-<br>
-<br>
-<br>
 
 
 
     <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <br>
+
+  <h1><strong><center>My Projects</center></strong></h1>
+  <br>
+  <br>
+
+
+
+
+
+
+
 <div id ="galine">
-   <img src="ue5.png"/>
-   &nbsp
-   <img src="atom.PNG"/>
-   &nbsp
-   <img src="MoteValley.PNG" />
+
+   <div class="ani"><a href="https://github.com/SamLeech943"><img src="ue5.png"/>  </div>
+
+  <div class="ani"> <a href="https://github.com/SamLeech943"><img src="atom.PNG"/>  </div>
+
+  <div class="ani"><a href="https://github.com/SamLeech943"> <img src="MoteValley.PNG" />  </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <div class="ani"><a href="https://github.com/SamLeech943"><img src="ue5.png"/>  </div>
+
+   <div class="ani"> <a href="https://github.com/SamLeech943"><img src="atom.PNG"/>  </div>
+
+   <div class="ani"><a href="https://github.com/SamLeech943"> <img src="MoteValley.PNG" />  </div>
+
   </div>
+
+
+
+
 <br>
 <br>
 <br>
 <br>
 <div class="main" id="section2">
+<br>
+<br>
+<br>
 <br>
 <h1><strong><center>Find Us</center></strong></h1>
 
@@ -375,7 +397,7 @@ scrollBanner();
 
 
 
-</p>
+
 
 <br>
    </div></center>
