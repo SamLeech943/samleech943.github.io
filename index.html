@@ -24,15 +24,15 @@
 
 
 <style>
-p{
-  position: relative;
-  font-size: 22px;
-  padding-top: 5px;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
-
-
-}
+    p {
+        position: relative;
+        font-size: 22px;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        padding: 15px 18px;
+        line-height: 1.5;
+    }
 </style>
     <style>
 body {
@@ -40,6 +40,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
+    overflow-x:hidden;
 }
 
 
@@ -64,20 +65,7 @@ body {
     }
 
 
-.parallax1 {
-    /* The image used */
-    background-image: url(https://vignette.wikia.nocookie.net/phobia/images/b/bb/Hot_Pink.png/revision/latest?cb=20161111013301);
-    z-index: 30000;
-    /* Full height */
-    height: 100%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 #header{
   position: fixed;
@@ -87,6 +75,8 @@ body {
     text-align: center;
     color: white;
     font-size: 150px;
+    
+
 }
 
 .box {
@@ -95,6 +85,7 @@ body {
     height: 190px;
     margin-right: 15px;
     padding: inherit;
+    
 }
 
 
@@ -114,22 +105,45 @@ body {
         text-align: center;
 
 
-    }
-
-    #galine img {
-        display: inline;
-        width: 500px;
-        height: 250px;
-  margin-bottom: 50px;
 
     }
 
-    #galine:after {
-        content: '';
-        display: inline;
-        width: 52%;
-        
-    }
+        #galine img {
+            border-collapse: collapse;
+           
+            display: inline;
+            min-width: 500px;
+            height: 250px;
+            margin-bottom: 50px;
+        }
+
+        #galine:after {
+            content: '';
+            display: inline;
+            width: 52%;
+        }
+
+
+        #section3 {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            width: 100%;
+            height: 1200px;
+           
+      
+            margin: 10px;
+        }
+            #section2 {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            width: 100%;
+            height: 1080px;
+          overflow:hidden;
+           
+            margin: 10px;
+        }
 </style>
 
 
@@ -343,6 +357,7 @@ scrollBanner();
   padding-left: 60px;
   font-size: 50px;
 
+
 	clear: both;
 	background: transparent url(path/to/image/1.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
@@ -385,19 +400,19 @@ scrollBanner();
 
   <body>
 
-    <!-- Navigation -->
+      <!-- Navigation -->
 
 
-        <nav>
+      <nav>
 
-        <ul>
-          <li class="item" ><a href="#" class ="scrollToTop">Home</a></li>
-          <li class="item"><a href="#section2">About Me</a></li>
-          <li class="item"><a href="#section3">My Links</a></li>
-          <li class="item"><a href="contact.html">My Projects </a></li>
+          <ul>
+              <li class="item"><a href="#" class="scrollToTop">Home</a></li>
+              <li class="item"><a href="#section2">About Me</a></li>
+              <li class="item"><a href="#section3">My Links</a></li>
+              <li class="item"><a href="contact.html">My Projects </a></li>
 
-        </ul>
-</nav>
+          </ul>
+      </nav>
       </div>
       </div>
       </div>
@@ -405,137 +420,154 @@ scrollBanner();
 
 
 
-<div id="banner">
-  	<div class="wrap-center">
-		<div class="banner-centered" id="banner-text">
+      <div id="banner">
+          <div class="wrap-center">
+              <div class="banner-centered" id="banner-text">
 
-<br>
-<br>
-<br>
+                  <br>
+                  <br>
+                  <br>
 
-<br>
-<br>
-
-
-
-
-
-			<h1><strong>Sam Leech <br>
-                    Game & <br>
-                   Web Developer </strong></h1>
-		</div>
-	</div>
-</div>
+                  <br>
+                  <br>
 
 
 
 
 
-<div class="parallax"></div>
-<br>
-<br>
-<br>
-
-<div class="main" id="section2">
-<div style="height:1000px;background-color:white;font-size:36px">
-&nbsp
-
-
-	<center><h1>About Me</h1></center>
-	<br>
-	<center><p>I am a Web and Games Developer with experience in Unreal Engine and Unity as well as HTML, CSS, JavaScript, EJS, Node.js and more.  <br>I also have experience in Application development in languages such as Python, Visual Basic, C and C#. <br> I have been working with programming languages since 2017, I started with Python,HTML and CSS.
-
-
-
-
-<br> Following this I worked with JavaScript and Bootstrap to allow for more robust websites. I have since worked on Windows Applications in Visula Basic, C and C#.<br>
-
- Since 2020 I have been learning Unreal Engine and Unity throughout University developing games on the Design and Tech Development side. <br> I have Completed Game Jams as well as Collaborative games development alongside individual projects. <br> I am currently studying BSc (Hons) Computer Gameplay Design and Production in my final year.  </p></center>
-
-<div id ="galine">
- <img src="atom.PNG" />
- <img src="MoteValley.PNG" />
- <img src="ue5.png" />
-</div>
-&nbsp
-&nbsp
-</div>
-
-</div>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-
-<br>
-<br>
-
-<div class="main" id="section3">
-<div style="height:1000px;background-color:white;font-size:36px">
-
-
-
-  <br>
-
-<center><h1>My Links</h1></center>
-
-<br>
-<br>
-
-<div id ="galine">
-<div class="ani"> <a href="https://github.com/SamLeech943"><img src="git.png" /></div>
-  <br>
-
-<div class="ani"> <a href="https://www.linkedin.com/in/sam-leech-397844194/"><img src="link.png" /></div>
-
-  <div class="ani"> <a href="https://samleech943.itch.io/"><img src="itch.png" /></div>
-
-
-
-</div>
+                  <h1>
+                      <strong>
+                          Sam Leech <br>
+                          Game & <br>
+                          Web Developer
+                      </strong>
+                  </h1>
+              </div>
+          </div>
       </div>
 
 
-</div>
+
+
+
+      <div class="parallax"></div>
+      <br>
+      <br>
+      <br>
+
+      <div class="main" id="section2">
+          <div style="height:1000px;background-color:white;font-size:36px">
+              &nbsp
+
+
+              <center><h1>About Me</h1></center>
+             
+              <center>
+                  <p>
+                      I am a Web and Games Developer with experience in Unreal Engine and Unity as well as HTML, CSS, JavaScript, EJS, Node.js and more.  <br>I also have experience in Application development in languages such as Python, Visual Basic, C and C#. <br> I have been working with programming languages since 2017, I started with Python,HTML and CSS.
 
 
 
 
-</div>
-</div>
-</div>
+                      <br> 
+                      <br>Following this I worked with JavaScript and Bootstrap to allow for more robust websites. I have since worked on Windows Applications in Visula Basic, C and C#.<br>
+
+                      Since 2020 I have been learning Unreal Engine and Unity throughout University developing games on the Design and Tech Development side. <br> I have Completed Game Jams as well as Collaborative games development alongside individual projects. <br> I am currently studying BSc (Hons) Computer Gameplay Design and Production in my final year.
+                  </p>
+              </center>
+             
+            
+              <div id="galine">
+                  <img src="atom.PNG" />
+                  <img src="MoteValley.PNG" />
+                  <img src="ue5.png" />
+              </div>
+              &nbsp
+              &nbsp
+          </div>
+
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
 
 
 
-
-
-</div>
-</div>
-</div>
-
-
-
-    <!-- Footer -->
-    <div class="footer">
-
-<br>
 
 
       <br>
-        <br>
+      <br>
+
+      <div class="main" id="section3">
+          <div style="height:1000px;background-color:white;font-size:36px">
+
+
+
+              <br>
+
+              <center><h1>My Links</h1></center>
+
+              <br>
+              <br>
+
+              <div id="galine">
+                  <div class="ani"> <a href="https://github.com/SamLeech943"><img src="git.png" /></div>
+                  <br>
+
+                  <div class="ani"> <a href="https://www.linkedin.com/in/sam-leech-397844194/"><img src="link.png" /></div>
+
+                  <div class="ani"> <a href="https://samleech943.itch.io/"><img src="itch.png" /></div>
+
+
+
+              </div>
+          </div>
+
+
+      </div>
+
+
+
+
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+
+      </div>
+      </div>
+      </div>
+
+
+
+      <!-- Footer -->
+      <div class="footer">
+
           <br>
 
 
-    <p>© 2022 Sam Leech - All Rights Reserved</p>
-</div>
+
+          <br>
+          <br>
+
+
+
+          <p>© 2022 Sam Leech - All Rights Reserved</p>
+      </div>
 
 
 
