@@ -11790,25 +11790,29 @@ section#contact form#contactForm :-ms-input-placeholder {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.styled-table thead tr {
-    background-color: #212529;
-    color: #ffffff;
-    text-align: left;
-}
-
-.styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-    font-weight: bold;
-    padding: 12px 15px;
-    font-weight: bold;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+.styled-table {
+    border-collapse: collapse;
+    margin: 20px 0;
     
 
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+.styled-table thead tr {
+    background-color: #202121;
+    color: #ffffff;
+    text-align: left;
+
+
+    }
+
+    .styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+}
 .styled-table tbody tr {
     border-bottom: thin solid #dddddd;
 }
@@ -11818,18 +11822,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #6d0497;
+    border-bottom: thin solid #6d0497;
 }
 
 .styled-table tbody tr.active-row {
     font-weight: bold;
-    color:#212529;
+    color: #202121;
 }
 
-.styled-table td{
-font-weight: bold;
-color:#212529;
-}
 
 
 .vcontainer {
